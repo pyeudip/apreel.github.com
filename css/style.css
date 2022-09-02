@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(to right, #e4d1b9, #b09b71);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.my-photo p {
+  text-align: center;
+  padding: 3px;
+  color: #483838;
+  font-size: 21px;
+}
+
+.my-photo a {
+  text-align: center;
+  color: #483838;
+
+  text-decoration: none;
+}
+
+img {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 99em;
+  box-shadow: 0px 0px 10px 5px;
+  color: #483838;
+}
+
+.my-instagram h2 {
+  text-align: left;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 30px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 20px;
+  box-shadow: 0px 0px 10px 3px;
+  background: lightgoldenrodyellow;
+}
+
+.my-instagram a {
+  text-decoration: none;
+  color: #483838;
+}
+
+.my-github h2 {
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 30px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 20px;
+
+  box-shadow: 0px 0px 10px 3px;
+  background: lightgoldenrodyellow;
+}
+
+.my-github a {
+  text-decoration: none;
+  color: #483838;
+}
+
+.my-spotify h2 {
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 30px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 20px;
+
+  box-shadow: 0px 0px 10px 3px;
+  background: lightgoldenrodyellow;
+}
+
+.my-spotify a {
+  text-decoration: none;
+  color: #483838;
+}
