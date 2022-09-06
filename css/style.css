@@ -13,7 +13,6 @@ body {
 .my-photo a {
   text-align: center;
   color: #483838;
-
   text-decoration: none;
 }
 
@@ -58,7 +57,6 @@ img {
   margin-right: auto;
   width: 500px;
   height: 20px;
-
   box-shadow: 0px 0px 10px 3px;
   background: lightgoldenrodyellow;
 }
@@ -78,7 +76,6 @@ img {
   margin-right: auto;
   width: 500px;
   height: 20px;
-
   box-shadow: 0px 0px 10px 3px;
   background: lightgoldenrodyellow;
 }
@@ -86,4 +83,56 @@ img {
 .my-spotify a {
   text-decoration: none;
   color: #483838;
+}
+
+.title {
+  text-align: center;
+}
+
+td,
+th {
+  border: 2px solid brown;
+  text-align: center;
+  padding: 10px;
+}
+
+.kepala-tabel {
+  background-color: burlywood;
+}
+
+.tabel {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tombol-bestie {
+  background-color: lightgoldenrodyellow;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tombol-bestie a {
+  padding: 15px 25px;
+}
+
+.tombol-back-bestie {
+  margin-top: 40px;
+}
+
+.tombol-back-bestie a {
+  background-color: brown;
+  font-size: 20px;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-bestie a:hover {
+  background-color: burlywood;
 }
