@@ -96,6 +96,14 @@ th {
   padding: 10px;
 }
 
+td:hover {
+  background-color: brown;
+}
+
+th:hover {
+  background-color: brown;
+}
+
 .kepala-tabel {
   background-color: burlywood;
 }
@@ -120,6 +128,22 @@ th {
   padding: 15px 25px;
 }
 
+.tombol-bestie-css {
+  background-color: lightgoldenrodyellow;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: auto;
+}
+
+.tombol-bestie-css a {
+  padding: 15px 25px;
+}
+
 .tombol-back-bestie {
   margin-top: 40px;
 }
@@ -135,4 +159,37 @@ th {
 
 .tombol-back-bestie a:hover {
   background-color: burlywood;
+}
+
+.tombol-back-bestie-css {
+  margin-top: 40px;
+}
+
+.tombol-back-bestie-css a {
+  background-color: brown;
+  font-size: 20px;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-bestie-css a:hover {
+  background-color: burlywood;
+}
+
+.ngubah {
+  background-color: #e4d1b9;
+}
+
+.ngubah:hover {
+  background-color: brown;
+}
+
+.ngapus {
+  background-color: #e4d1b9;
+}
+
+.ngapus:hover {
+  background-color: brown;
 }
