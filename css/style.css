@@ -144,6 +144,22 @@ th:hover {
   padding: 15px 25px;
 }
 
+.tombol-bestie-jquery {
+  background-color: lightgoldenrodyellow;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 145px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: 429px;
+}
+
+.tombol-bestie-jquery a {
+  padding: 15px 25px;
+}
+
 .tombol-back-bestie {
   margin-top: 40px;
 }
