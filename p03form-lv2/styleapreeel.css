@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "poppins";
+  src: url("Poppins-Medium.otf");
+}
+
+body {
+  background-color: white;
+  font-family: "poppins";
+  font-size: 18px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend {
+  color: red;
+}
+
+th {
+  padding: 0.4rem;
+  font-size: 15px;
+}
+
+select:hover {
+  background-color: blanchedalmond;
+}
+
+option:hover {
+  background-color: blanchedalmond;
+}
+
+input:hover {
+  background-color: blanchedalmond;
+}
+
+textarea:hover {
+  background-color: blanchedalmond;
+}
+
+table {
+  margin: 50px;
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  color: red;
+}
+
+.rules {
+  padding-bottom: 1rem;
+  color: red;
+}
