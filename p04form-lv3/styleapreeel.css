@@ -99,4 +99,8 @@ h1 {
   body {
     margin: 0rem 20rem 0rem 20rem;
   }
+  fieldset {
+    width: 100%;
+    height: auto;
+  }
 }
