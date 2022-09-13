@@ -4,12 +4,7 @@
 }
 
 body {
-  background-color: white;
   font-family: "poppins";
-  font-size: 18px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 legend {
@@ -41,15 +36,54 @@ table {
   margin: 50px;
 }
 
-h1 {
-  color: black;
+.first {
+  width: 100%;
+  max-width: 500px;
 }
 
-h3 {
-  color: red;
+h1 {
+  color: black;
 }
 
 .rules {
   padding-bottom: 1rem;
   color: red;
+}
+
+.image-headers {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-headers img {
+  width: 100%;
+  height: auto;
+}
+
+.rules {
+  margin: auto;
+}
+
+.rule {
+  margin: 0px 0px 0px 1rem;
+  font-size: 25px;
+  color: red;
+}
+
+.pala {
+  font-size: 30px;
+}
+
+.bungkus {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+}
+
+button a {
+  font-family: "poppins";
+  text-decoration: none;
 }

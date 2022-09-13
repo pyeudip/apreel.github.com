@@ -32,6 +32,10 @@ textarea:hover {
   background-color: blanchedalmond;
 }
 
+table {
+  margin: 50px;
+}
+
 .first {
   width: 100%;
   max-width: 500px;
@@ -84,7 +88,7 @@ button a {
   text-decoration: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .image-headers img {
     width: 100%;
     height: auto;
@@ -98,6 +102,6 @@ button a {
     color: red;
   }
   body {
-    margin: 0rem 20rem 0rem 20rem;
+    margin: 0rem 10rem 0rem 10rem;
   }
 }
