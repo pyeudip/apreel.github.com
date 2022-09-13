@@ -11,7 +11,7 @@ legend {
   color: red;
 }
 
-/* th {
+th {
   padding: 0.4rem;
   font-size: 15px;
 }
@@ -43,7 +43,7 @@ table {
 
 h1 {
   color: black;
-} */
+}
 
 .rules {
   padding-bottom: 1rem;
@@ -83,6 +83,15 @@ h1 {
   max-width: 700px;
 }
 
+button {
+  text-align: left;
+}
+
+button a {
+  font-family: "poppins";
+  text-decoration: none;
+}
+
 @media (min-width: 800px) {
   .image-headers img {
     width: 100%;
@@ -98,12 +107,5 @@ h1 {
   }
   body {
     margin: 0rem 20rem 0rem 20rem;
-  }
-  fieldset {
-    width: 100%;
-    height: auto;
-    font-size: 25px;
-    font: bold;
-    color: red;
   }
 }
