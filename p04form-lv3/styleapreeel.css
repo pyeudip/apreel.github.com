@@ -32,10 +32,6 @@ textarea:hover {
   background-color: blanchedalmond;
 }
 
-table {
-  margin: 50px;
-}
-
 .first {
   width: 100%;
   max-width: 500px;
@@ -81,10 +77,6 @@ h1 {
   width: 100%;
   height: auto;
   max-width: 700px;
-}
-
-button {
-  text-align: left;
 }
 
 button a {
