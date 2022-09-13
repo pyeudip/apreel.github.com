@@ -5,15 +5,29 @@
 
 body {
   font-family: "poppins";
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+thead {
+  padding: 2rem;
+}
+
+tbody {
+  margin: 1rem;
+}
+
+.tabel-dalam-dalam {
+  margin: 2rem;
+}
+
+.pala {
+  font-family: "poppins";
+  font-size: 30px;
 }
 
 legend {
   color: red;
-}
-
-th {
-  padding: 0.4rem;
-  font-size: 15px;
 }
 
 select:hover {
@@ -32,21 +46,9 @@ textarea:hover {
   background-color: blanchedalmond;
 }
 
-table {
-  margin: 50px;
-}
-
-.first {
-  width: 100%;
-  max-width: 500px;
-}
-
-h1 {
-  color: black;
-}
-
-.rules {
-  padding-bottom: 1rem;
+.rule {
+  margin: 0px 0px 0px 1rem;
+  font-size: 25px;
   color: red;
 }
 
@@ -64,44 +66,26 @@ h1 {
 }
 
 .rules {
+  padding-bottom: 1rem;
+  color: red;
   margin: auto;
 }
 
-.rule {
-  margin: 0px 0px 0px 1rem;
-  font-size: 25px;
-  color: red;
-}
-
-.pala {
-  font-size: 30px;
-}
-
-.bungkus {
-  width: 100%;
-  height: auto;
-  max-width: 700px;
-}
-
 button a {
+  color: black;
   font-family: "poppins";
   text-decoration: none;
 }
 
-@media (min-width: 700px) {
-  .image-headers img {
-    width: 100%;
-    height: auto;
-  }
-  .pala {
-    font-size: 40px;
-  }
-  .rule {
-    font-size: 25px;
-    font: bold;
-    color: red;
-  }
+@media only screen and (min-width: 700px) {
   body {
-    margin: 0rem 10rem 0rem 10rem;
+    font-family: "poppins";
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .rules {
+    color: red;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }

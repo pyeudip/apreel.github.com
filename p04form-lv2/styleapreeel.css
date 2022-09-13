@@ -6,14 +6,13 @@
 body {
   font-family: "poppins";
 }
+.pala {
+  font-family: "poppins";
+  font-size: 30px;
+}
 
 legend {
   color: red;
-}
-
-th {
-  padding: 0.4rem;
-  font-size: 15px;
 }
 
 select:hover {
@@ -32,21 +31,9 @@ textarea:hover {
   background-color: blanchedalmond;
 }
 
-table {
-  margin: 50px;
-}
-
-.first {
-  width: 100%;
-  max-width: 500px;
-}
-
-h1 {
-  color: black;
-}
-
-.rules {
-  padding-bottom: 1rem;
+.rule {
+  margin: 0px 0px 0px 1rem;
+  font-size: 25px;
   color: red;
 }
 
@@ -64,26 +51,13 @@ h1 {
 }
 
 .rules {
+  padding-bottom: 1rem;
+  color: red;
   margin: auto;
 }
 
-.rule {
-  margin: 0px 0px 0px 1rem;
-  font-size: 25px;
-  color: red;
-}
-
-.pala {
-  font-size: 30px;
-}
-
-.bungkus {
-  width: 100%;
-  height: auto;
-  max-width: 700px;
-}
-
 button a {
+  color: black;
   font-family: "poppins";
   text-decoration: none;
 }
