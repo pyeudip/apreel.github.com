@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(Poppins-Medium.otf);
+}
+@font-face {
+  font-family: "Pacifico-Regular";
+  src: url(Pacifico-Regular.ttf);
+}
+
+body {
+  background-color: #41436a;
+  padding: 0px;
+  margin: 0px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  position: absolute;
+  background-color: #fe9677;
+  width: 100%;
+  height: 4rem;
+}
+
+.navbar1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.navbar2 {
+  font-family: "Poppins-Medium";
+  font-size: 16px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 30rem;
+  list-style: none;
+}
+
+.logo {
+  font-family: "Pacifico-Regular";
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -2px;
+  padding: top 5px;
+  font-size: 30px;
+  list-style-type: none;
+}
