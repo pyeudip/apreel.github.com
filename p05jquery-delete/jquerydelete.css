@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, #e4d1b9, #b09b71);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.judul {
+  text-align: center;
+}
+
+td,
+th {
+  border: 2px solid brown;
+  text-align: center;
+  padding: 10px;
+}
+
+td:hover {
+  background-color: brown;
+}
+
+th:hover {
+  background-color: brown;
+}
+
+.tombol-back-bestie {
+  margin-top: 40px;
+}
+
+.tombol-back-bestie a {
+  background-color: brown;
+  font-size: 20px;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-bestie a:hover {
+  background-color: burlywood;
+}

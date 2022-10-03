@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    width: 100%;
+}
+
+.pembungkus {
+    background-color: #fff;
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+}
+
+.logo-ikmi {
+    float: left;
+    margin-top: -150px;
+    transition: 0.2s;
+	opacity: 90%;
+}
+
+.logo-ikmi:hover {
+    transform: scale(1.2);
+    opacity: 100%;
+}
+
+.judul {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+
+.judul h2 {
+    font-size: 16px;
+    position: relative;
+    top: 12px;
+}
+
+.judul h2:hover {
+    color: red;
+    cursor: pointer;
+    text-shadow: -3px 4px 8px rgba(255,44,44,1);
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.judul .j1 {
+    font-size: 100px;
+    float: left;
+    color: red;
+    letter-spacing: 10px;
+    text-shadow: -3px 4px 8px rgba(255,44,44,1);
+}
+
+.judul .j1:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.judul .j2 {
+    font-size: 60px;
+    position: absolute;
+    margin-top: 10px;
+    color: blue;
+    text-shadow: -3px 4px 8px rgb(20, 5, 228);
+}
+
+.judul .j2:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.judul .j3 {
+    font-size: 30px;
+    margin-top: 50px;
+    color: green;
+    text-shadow: -3px 4px 8px rgb(43, 145, 51);
+}
+
+.judul .j3:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.judul .strip {
+    position: absolute;
+    left: 510px;;
+    margin-top: -140px;
+    font-size: 130px;
+    color: red;
+    text-shadow: -3px 4px 8px rgba(255,44,44,1);
+}
+
+.judul .strip:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.lokasi {
+    float: right;
+    margin-right: -450px;
+    margin-top: -115px;
+}
+
+.lokasi p:hover {
+    cursor: pointer;
+    color: blue;
+    text-shadow: -3px 4px 8px rgb(20, 5, 228);
+    font-weight: bold;
+}
+
+.lokasi .web a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.lokasi .web:hover {
+    color: red;
+    text-shadow: -3px 4px 8px rgba(255,44,44,1);
+    font-weight: normal;
+}
+
+.lokasi .kampus {
+    font-weight: bold;
+}
+
+.lokasi p {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.garis {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+}
+
+.garis1 {
+    width: 56%;
+    height: 35px;
+    background-color: red;
+    margin-top: 150px;
+}
+
+.garis1:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .3s;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+}
+
+.garis1 p {
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.garis1 p:hover {
+    cursor: pointer;
+    transition: .2s;
+}
+
+.garis2 {
+    width: 44%;
+    height: 35px;
+    float: right;
+    margin-top: -35px;
+    background-color: green;
+}
+
+.garis2:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .3s;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+}
+
+.garis2 p {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.garis2 p:hover {
+    cursor: pointer;
+    transition: .2s;
+}
+
+.clear {
+    clear: left;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-family: "Trirong", sans-serif;
+    color: rgb(31, 29, 29);
+    text-shadow: -2px -3px 8px rgba(0,0,0,0.6);
+}
+
+h1:hover {
+    cursor: pointer;
+    transition: .2s;
+    letter-spacing: 10px;
+}
+
+.nosurat {
+    text-align: center;
+    font-size: 21px;
+    margin-top: -10px;
+}
+
+.nosurat:hover {
+    letter-spacing: 2px;
+    transition: .2s;
+}
