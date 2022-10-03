@@ -54,3 +54,21 @@ li a {
   font-size: 30px;
   list-style-type: none;
 }
+
+.isi__1,
+.isi__2,
+.isi__3,
+.isi__4 {
+  background-color: white;
+  border: solid 1px white;
+  padding-top: 8rem;
+  display: none;
+  color: black;
+  font-family: calibri;
+  border-radius: 6px;
+  box-shadow: 1px 1px 6px gray;
+}
+
+.active {
+  font-weight: bold;
+}
